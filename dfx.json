@@ -4,18 +4,21 @@
       "main": "src/bariza/main.mo",
       "type": "motoko"
     },
-    "bariza_assets": {
-      "dependencies": [
-        "bariza"
-      ],
-      "frontend": {
-        "entrypoint": "src/bariza_assets/src/index.html"
-      },
-      "source": [
-        "src/bariza_assets/assets",
-        "dist/bariza_assets/"
-      ],
-      "type": "assets"
+    "favorite_cities": {
+      "main": "src/favorite_cities/main.mo",
+      "type": "motoko"
+    },
+    "counter": {
+      "main": "src/counter/main.mo",
+      "type": "motoko"
+    },
+    "calc": {
+      "main": "src/calc/main.mo",
+      "type": "motoko"
+    },
+    "phonebook": {
+      "main": "src/phonebook/main.mo",
+      "type": "motoko"
     }
   },
   "defaults": {
